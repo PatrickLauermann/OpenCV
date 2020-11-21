@@ -1,3 +1,5 @@
+Patrick Lauermann
+
 Opencv_annotations:
 
   A ferramenta opencv_annotations é muito útil para ajudá-lo a capturar todas as coordenadas retangulares de todas as amostras positivas que você gostaria de usar no treinamento em cascata. A coordenada do retângulo significa (x, y, w, h). O programa irá gerar um arquivo de texto que contém o caminho do arquivo para a imagem positiva. É chamado de opencv_annotations, porque descreve algumas informações sobre cada imagem positiva em suas amostras positivas. 
