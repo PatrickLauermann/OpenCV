@@ -1,4 +1,4 @@
-Patrick Lauermann
+Desenvolvedor: Patrick Lauermann
 
 Opencv_annotations:
 
@@ -31,9 +31,9 @@ Tutorial:
   
   Executar o código buildListNegative.py para criar a lista das imagens negativas.
   
-  Realizar o código opencv_annotation --annotations=saida.txt --images=positivas/. Para selecionar as imagens positivas.
+  Executar o código opencv_annotation --annotations=saida.txt --images=positivas/. Para selecionar as imagens positivas.
   
-  Inserir o código: opencv_createsamples -info saida.txt -bg negativas.txt -vec vetor.vec -w 24 -h 24 para criar o arquivo de vetor.vec.
+  Executar o código: opencv_createsamples -info saida.txt -bg negativas.txt -vec vetor.vec -w 24 -h 24 para criar o arquivo de vetor.vec.
   
   Executar o código opencv_traincascade -data treinamento -vec vetor.vec -bg negativas.txt -numPos -numNeg -w 24 -h 24 -precalcValBufSize 1024 -precalcIdxBufSize 1024 -numStages   30 -acceptanceRatioBreakValue 1.0e-5.
   
