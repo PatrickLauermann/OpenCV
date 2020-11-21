@@ -19,22 +19,22 @@ Opencv_traincascade:
 
 Tutorial:
 
-  Baixar Python 32bit 
+  Baixar Python 32bit.
   
-  Instalar opencv: pip install opencv_python
+  Instalar opencv: pip install opencv_python.
   
   Adicionar o caminho na variável de ambiente (C:\Users\ seu users\pasta que descompactou\opencv\build\x64\vc14\bin).
   
-  Criar as pastas positivas, negativas e treinamento
+  Criar as pastas positivas, negativas e treinamento.
   
   Executar o código buildListNegative.py para criar a lista das imagens negativas.
   
   Realizar o código opencv_annotation --annotations=saida.txt --images=positivas/. Para selecionar as imagens positivas.
   
-  Inserir o código: opencv_createsamples -info saida.txt -bg negativas.txt -vec vetor.vec -w 24 -h 24 para criar o arquivo de vetor.vec
+  Inserir o código: opencv_createsamples -info saida.txt -bg negativas.txt -vec vetor.vec -w 24 -h 24 para criar o arquivo de vetor.vec.
   
-  Executar o código opencv_traincascade -data treinamento -vec vetor.vec -bg negativas.txt -numPos -numNeg -w 24 -h 24 -precalcValBufSize 1024 -precalcIdxBufSize 1024 -numStages   30 -acceptanceRatioBreakValue 1.0e-5
+  Executar o código opencv_traincascade -data treinamento -vec vetor.vec -bg negativas.txt -numPos -numNeg -w 24 -h 24 -precalcValBufSize 1024 -precalcIdxBufSize 1024 -numStages   30 -acceptanceRatioBreakValue 1.0e-5.
   
-  Irá começar o treinamento da IA
+  Irá começar o treinamento da IA.
   
-  Testar a IA com o código analiseTreinamento.py
+  Testar a IA com o código analiseTreinamento.py.
