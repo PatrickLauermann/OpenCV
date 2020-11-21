@@ -18,6 +18,7 @@ Opencv_traincascade:
   A precisão dos recursos LBP e Haar para detecção depende da qualidade e dos parâmetros de treinamento dos dados de treinamento durante o processo de treinamento. É possível treinar um classificador de LBP com a mesma precisão dos recursos de Haar. Opencv_traincascade pode exportar classificadores em cascata selecionados no formato antigo. No entanto, após o processo de treinamento ser interrompido e reiniciado, não pode carregar um formato de arquivo diferente do anterior à interrupção. 
 
 Tutorial:
+
   Baixar Python 32bit 
   
   Instalar opencv: pip install opencv_python
