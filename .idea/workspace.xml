@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb918f36-e72e-4831-8149-03e57b17afb9" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1znUZJ9WL93018XaUOApCDpgHok" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Road_Block_Recognition" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86158\Desktop\OpenCV\Road_Block_Recognition" />
+      <recent name="C:\Users\86158\Desktop\OpenCV\Road_Block_Recognition\treinamento" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86158\Desktop\OpenCV\Road_Block_Recognition" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="OpencvTrain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Road_Block_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Road_Block_Recognition/OpencvTrain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Road_Block_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Road_Block_Recognition/Utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analiseTreinamento (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bicicleta_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bicicleta_Recognition/analiseTreinamento.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Road_Block_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Road_Block_Recognition/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Road_Block_Recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\86158\Desktop\OpenCV\Road_Block_Recognition\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.OpencvTrain" />
+        <item itemvalue="Python.Utils" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.analiseTreinamento (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb918f36-e72e-4831-8149-03e57b17afb9" name="默认更改列表" comment="" />
+      <created>1634783399936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634783399936</updated>
+      <workItem from="1634783402396" duration="20958000" />
+      <workItem from="1634839728108" duration="1407000" />
+      <workItem from="1634865377074" duration="5545000" />
+      <workItem from="1634871229589" duration="7167000" />
+      <workItem from="1634884756193" duration="161000" />
+      <workItem from="1634910894895" duration="174000" />
+      <workItem from="1634911132309" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1192" y="365" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634870062442">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="1192" y="365" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1046@0.0.1920.1046" timestamp="1634870062442" />
+    <state width="1877" height="196" key="GridCell.Tab.0.bottom" timestamp="1634911245231">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1634911245231" />
+    <state width="1877" height="196" key="GridCell.Tab.0.center" timestamp="1634911245231">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="196" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1634911245231" />
+    <state width="1877" height="196" key="GridCell.Tab.0.left" timestamp="1634911245231">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="196" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1634911245231" />
+    <state width="1877" height="196" key="GridCell.Tab.0.right" timestamp="1634911245231">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="196" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1634911245231" />
+    <state width="1877" height="267" key="GridCell.Tab.1.bottom" timestamp="1634884628886">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1634884628886" />
+    <state width="1877" height="267" key="GridCell.Tab.1.center" timestamp="1634884628886">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="267" key="GridCell.Tab.1.center/0.0.1920.1046@0.0.1920.1046" timestamp="1634884628886" />
+    <state width="1877" height="267" key="GridCell.Tab.1.left" timestamp="1634884628886">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="267" key="GridCell.Tab.1.left/0.0.1920.1046@0.0.1920.1046" timestamp="1634884628886" />
+    <state width="1877" height="267" key="GridCell.Tab.1.right" timestamp="1634884628886">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state width="1877" height="267" key="GridCell.Tab.1.right/0.0.1920.1046@0.0.1920.1046" timestamp="1634884628886" />
+    <state x="454" y="174" key="SettingsEditor" timestamp="1634797740291">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="454" y="174" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1634797740291" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1634840576501">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1046@0.0.1920.1046" timestamp="1634840576501" />
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1634865954312">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1634865954312" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OpenCV$Utils.coverage" NAME="Utils Coverage Results" MODIFIED="1634840914123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Road_Block_Recognition" />
+    <SUITE FILE_PATH="coverage/OpenCV$renameFiles.coverage" NAME="renameFiles Coverage Results" MODIFIED="1634800733249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Road_Block_Recognition" />
+    <SUITE FILE_PATH="coverage/OpenCV$OpencvTrain.coverage" NAME="OpencvTrain Coverage Results" MODIFIED="1634866567400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Road_Block_Recognition" />
+    <SUITE FILE_PATH="coverage/OpenCV$analiseTreinamento__1_.coverage" NAME="analiseTreinamento (1) Coverage Results" MODIFIED="1634815892599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bicicleta_Recognition" />
+    <SUITE FILE_PATH="coverage/OpenCV$buildListNegative.coverage" NAME="buildListNegative Coverage Results" MODIFIED="1634786054311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Road_Block_Recognition" />
+    <SUITE FILE_PATH="coverage/OpenCV$analiseTreinamento.coverage" NAME="analiseTreinamento Coverage Results" MODIFIED="1634837453177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Road_Block_Recognition" />
+    <SUITE FILE_PATH="coverage/OpenCV$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1634911366131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Road_Block_Recognition" />
+  </component>
+</project>
