@@ -1,42 +1,97 @@
-Desenvolvedor: Patrick Lauermann
+# Brief Introduce:
 
-Opencv_annotations:
 
-  A ferramenta opencv_annotations é muito útil para ajudá-lo a capturar todas as coordenadas retangulares de todas as amostras positivas que você gostaria de usar no treinamento em cascata. A coordenada do retângulo significa (x, y, w, h). O programa irá gerar um arquivo de texto que contém o caminho do arquivo para a imagem positiva. É chamado de opencv_annotations, porque descreve algumas informações sobre cada imagem positiva em suas amostras positivas. 
-  
-  O programa será executado e tentará abrir todos os arquivos do diretório ./images. Se encontrar qualquer coisa que não seja uma imagem, ele passará por uma exceção e será encerrado. Se houver uma imagem corrompida, ela será encerrada. 
 
-Opencv_createsamples:  
+###### Before you use this demo, check whether you have done the following things:
 
-  Cria amostras positivas uma coleção de imagens positivas. O esquema de criação de amostras de teste é semelhante à criação de amostras de treinamento, pois cada amostra de teste é uma imagem de fundo em que uma imagem distorcida e dimensionada aleatoriamente instância da imagem do objeto é colada em uma posição aleatória.
-  
-  Para criar amostras de treinamento de uma imagem aplicando distorções e mostrar os resultados:
-opencv_createsamples  -img  source.png  -num  10  -bg  negatives.dat  -vec  samples_out.vec -show Para criar amostras de treinamento de tamanho 40 x 40 a partir de algumas imagens sem aplicar distorções: opencv_creasamples  -info  source.dat  -vec  samples_out.vec  -w  40  -H  40
+1、python
 
-Opencv_traincascade:
+2、opencv
 
-  O Opencv_traincascade é um novo programa escrito em C ++ usando a API OpenCV 2.x. A principal vantagem é que oferece suporte aos recursos Haar e LBP (Padrões binários locais) e é fácil adicionar outros recursos. Comparado com o recurso Haar, o recurso LBP é um recurso inteiro, então o processo de treinamento e detecção é várias vezes mais rápido do que o recurso Haar. 
-  
-  A precisão dos recursos LBP e Haar para detecção depende da qualidade e dos parâmetros de treinamento dos dados de treinamento durante o processo de treinamento. É possível treinar um classificador de LBP com a mesma precisão dos recursos de Haar. Opencv_traincascade pode exportar classificadores em cascata selecionados no formato antigo. No entanto, após o processo de treinamento ser interrompido e reiniciado, não pode carregar um formato de arquivo diferente do anterior à interrupção. 
+3、add opencv to your environment variable
 
-Tutorial:
 
-  Baixar Python 32bit.
-  
-  Instalar opencv: pip install opencv_python.
-  
-  Adicionar o caminho na variável de ambiente (C:\Users\ seu users\pasta que descompactou\opencv\build\x64\vc14\bin).
-  
-  Criar as pastas positivas, negativas e treinamento.
-  
-  Executar o código buildListNegative.py para criar a lista das imagens negativas.
-  
-  Executar o código opencv_annotation --annotations=saida.txt --images=positivas/. Para selecionar as imagens positivas.
-  
-  Executar o código: opencv_createsamples -info saida.txt -bg negativas.txt -vec vetor.vec -w 24 -h 24 para criar o arquivo de vetor.vec.
-  
-  Executar o código opencv_traincascade -data treinamento -vec vetor.vec -bg negativas.txt -numPos -numNeg -w 24 -h 24 -precalcValBufSize 1024 -precalcIdxBufSize 1024 -numStages   30 -acceptanceRatioBreakValue 1.0e-5.
-  
-  Irá começar o treinamento da IA.
-  
-  Testar a IA com o código analiseTreinamento.py.
+
+if you not done,please...
+
+I suggest you create a new virtual space created by conda:
+
+```
+conda update --all
+conda install --channel https://conda.anaconda.org/menpo opencv
+```
+
+this only download the cv2 for your python(but you should do), you will additional download the source code:
+
+```
+https://blog.csdn.net/maizousidemao/article/details/81474834?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163479705916780261970635%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=163479705916780261970635&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~hot_rank-2-81474834.first_rank_v2_pc_rank_v29&utm_term=python+opencv%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F&spm=1018.2226.3001.4187
+```
+
+
+
+## All Right,let's start
+
+
+
+1、You can save the origin data in file "origin_data"
+
+2、Put the negative picture in the file "negative"
+
+3、Put the positive picture in the file "positive"
+
+4、Put the Test picture in the file "Test"
+
+5、 file "treinamento" is the model created by opencv, whenever you decide to re-train, clean it
+
+
+
+analiseTreinamento.py used to test one picture
+
+analiseTreinametoVideo.py used to use your camera to recognize timly
+
+buildListNegative.py used to creat negative.exe, run it after you put the negative picture to file
+
+info.txt created by command, it will be touched in the later
+
+renameFiles.py used to rename the img you saved in "negative", "positive" and 'Test'
+
+vectire.vec created by command, it will be touched soon
+
+
+
+open cmd,then 
+
+cd your path such as C:\Users\xxxxx\Desktop\OpenCV\Road_Block_Recognition
+
+```
+C:\Users\86158\Desktop\OpenCV\Road_Block_Recognition
+```
+
+enter by order:
+
+```
+opencv_annotation --annotations=info.txt --images=positive/
+opencv_createsamples -info info.txt -vec vector.vec -w 30 -h 30
+opencv_traincascade -data model -vec vector.vec -bg negative.txt -numPos 30 -numNeg 200 -w 30 -h 30 -precalcValBufSize 1024 -precalcIdxBufSize 1024 -numStages 30 -acceptanceRatioBreakValue 1.0e-5
+```
+
+
+
+then everything is ok. You'd better read the reference to learn more about how to use it
+
+```
+https://www.cnblogs.com/xixixing/p/12308605.html
+https://github.com/PatrickLauermann/OpenCV
+https://zhuanlan.zhihu.com/p/340640174
+```
+
+ 
+
+## About how to choose parameter
+
+```
+https://blog.csdn.net/u014587123/article/details/78507649
+```
+
+
+
